@@ -10,6 +10,7 @@
 		0CE5D1691E6024EA00E7EA5E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5D1681E6024EA00E7EA5E /* MainVC.swift */; };
 		0CE5D16C1E60276900E7EA5E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5D16A1E60276900E7EA5E /* TableViewCell.swift */; };
 		0CE5D16D1E60276900E7EA5E /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE5D16B1E60276900E7EA5E /* TableViewCell.xib */; };
+		0CE5D1701E60385000E7EA5E /* HitList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CE5D16E1E60385000E7EA5E /* HitList.xcdatamodeld */; };
 		0CFB22FF1E6021A2002A31F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFB22FE1E6021A2002A31F6 /* AppDelegate.swift */; };
 		0CFB23041E6021A2002A31F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CFB23021E6021A2002A31F6 /* Main.storyboard */; };
 		0CFB23061E6021A2002A31F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CFB23051E6021A2002A31F6 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		0CE5D1681E6024EA00E7EA5E /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		0CE5D16A1E60276900E7EA5E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		0CE5D16B1E60276900E7EA5E /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		0CE5D16F1E60385000E7EA5E /* HitList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HitList.xcdatamodel; sourceTree = "<group>"; };
 		0CFB22FB1E6021A2002A31F6 /* HitListCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitListCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CFB22FE1E6021A2002A31F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CFB23031E6021A2002A31F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				0CFB230A1E6021A2002A31F6 /* Info.plist */,
 				0CE5D16A1E60276900E7EA5E /* TableViewCell.swift */,
 				0CE5D16B1E60276900E7EA5E /* TableViewCell.xib */,
+				0CE5D16E1E60385000E7EA5E /* HitList.xcdatamodeld */,
 			);
 			path = HitListCoreData;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CE5D16C1E60276900E7EA5E /* TableViewCell.swift in Sources */,
+				0CE5D1701E60385000E7EA5E /* HitList.xcdatamodeld in Sources */,
 				0CFB22FF1E6021A2002A31F6 /* AppDelegate.swift in Sources */,
 				0CE5D1691E6024EA00E7EA5E /* MainVC.swift in Sources */,
 			);
@@ -310,6 +314,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0CE5D16E1E60385000E7EA5E /* HitList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0CE5D16F1E60385000E7EA5E /* HitList.xcdatamodel */,
+			);
+			currentVersion = 0CE5D16F1E60385000E7EA5E /* HitList.xcdatamodel */;
+			path = HitList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0CFB22F31E6021A2002A31F6 /* Project object */;
 }
